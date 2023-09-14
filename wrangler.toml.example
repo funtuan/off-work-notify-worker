@@ -1,0 +1,15 @@
+name="{{name}}"
+main="src/index.ts"
+
+compatibility_date = "2022-11-22"
+
+kv_namespaces = [
+   { binding = "DB", id = "xxxxx", preview_id = "xxx" }
+]
+
+[triggers]
+crons = ["30 8 * * mon-fri"]
+
+[vars]
+SELF_LINE_USER_ID = "xxxx"
+LINE_CHANNEL_ACCESS_TOKEN = "xxxxx"
